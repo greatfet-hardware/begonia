@@ -26,4 +26,4 @@ DC      | J1.38 |       |
 DD      | J1.39 |       |
 RESET_N | J1.37 | J1.29 | J1.36
 
-J1.38 and J1.39 are the SCK and MOSI pins of the primary SPI interface.  J1.37 is the SSEL pin for that SPI interface.  It is used here because Begonia is not expected to be useful in a stacked configuration with other neighbors.  If required, solder jumpers can be used to enable one of the alternative RESET_N pins instead.
+J1.38 and J1.39 are the SCK and COPI pins of the primary SPI interface.  J1.37 is the CS pin for that SPI interface.  It is used here because Begonia is not expected to be useful in a stacked configuration with other neighbors.  If required, solder jumpers can be used to enable one of the alternative RESET_N pins instead.
