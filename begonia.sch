@@ -103,11 +103,11 @@ DC
 Text Label 8600 6100 0    40   ~ 0
 RESET_N
 Text Notes 8550 6200 2    40   ~ 0
-MOSI/P1_4
+COPI/P1_4
 Text Notes 9750 6100 0    40   ~ 0
 SCK/P1_19
 Text Notes 8550 6100 2    40   ~ 0
-SSEL/P1_20
+CS/P1_20
 Wire Wire Line
 	8700 4300 8900 4300
 Wire Wire Line
